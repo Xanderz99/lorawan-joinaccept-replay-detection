@@ -14,7 +14,7 @@ computes the extra checks quoted in Chapters 3 to 5 of the dissertation.
 
 | File | What it is |
 | --- | --- |
-| `JoinAccept_Replay_Detection.ipynb` | The full pipeline, Steps 1 to 11, with explanations above each step and saved outputs |
+| `JoinAccept_Replay_Detection_expanded.ipynb` | The full pipeline, Steps 1 to 11, with explanations above each step and saved outputs |
 | `normaltraffic.pcap` | The real background capture the notebook reads (about 15 minutes of traffic) |
 | `requirements.txt` | Python packages needed to run it |
 
@@ -55,8 +55,8 @@ the models, not the cost on gateway hardware.
 
 Running the figures cell saves two PNG files next to the notebook:
 
-- `fig4_4_confusion_matrices.png (Figure 4.4)`
-- `fig4_5_feature_importance.png (Figure 4.5)`
+- `fig4_4_confusion_matrices.png` (Figure 4.4)
+- `fig4_5_feature_importance.png` (Figure 4.5)
 
 These are ignored by git, so they are regenerated rather than committed.
 
