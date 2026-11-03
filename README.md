@@ -26,7 +26,7 @@ cd lorawan-joinaccept-replay-detection
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-jupyter lab JoinAccept_Replay_Detection.ipynb
+jupyter lab JoinAccept_Replay_Detection_expanded.ipynb
 ```
 
 Then run all cells in order. A full run takes well under a minute on a laptop.
