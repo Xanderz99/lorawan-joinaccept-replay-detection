@@ -1,0 +1,12 @@
+# Generated figures (recreated by the notebook)
+fig4_*.png
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# macOS
+.DS_Store
